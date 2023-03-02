@@ -6,7 +6,7 @@ Topics: NLP, Parsing Text
 
 Professor: Dr. Harold Wareham https://www.cs.mun.ca/~harold/
 
-A special thanks to Dr. Harold Wareham for implementing a fun and great way to learn how to clean, organize and parse context free methods. And also for giving me permission to share my experience with these assignments. Dr.Wareham spent months programming these assignments and the source codes are not available. Please sent me an email klan@mun.ca if you have any questions!
+A special thanks to Dr. Harold Wareham for implementing a fun and great way to learn how to clean, organize and parse context free methods. And also for giving me permission to share my experience with these assignments. Dr.Wareham spent months designing these assignments and the source codes are not available. Please sent me an email klan@mun.ca if you have any questions!
 
 
 This program implements the deterministic version of the Cocke-Kasami-Younger algorithm for parsing context-tree grammars in extended Chomsky Normal Form (eCNF). 
