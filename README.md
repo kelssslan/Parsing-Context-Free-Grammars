@@ -29,3 +29,5 @@ and
 
 respectively.
 
+
+The following ouput file shows the results when grammarFile = "g3.ecfg" and utteranceFile = "u3b.utt"
