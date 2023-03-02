@@ -1,0 +1,121 @@
+[['Houston', 'shot', 'an', 'elephant'], ['I', 'shot', 'an', 'elephant', 'in', 'my', 'pajamas'], ['book', 'the', 'flight', 'through', 'Houston'], ['shoot', 'the', 'elephant', 'in', 'my', 'pajamas'], ['Houston', 'in', 'my', 'book', 'shot', 'an', 'elephant', 'in', 'the', 'pajamas'], ['Houston', 'shot', 'an', 'elephant', 'in', 'my', 'pajamas', 'in', 'Houston']]
+Utterance # 1 : 
+
+Parse # 1
+[  S*[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ]
+
+Utterance # 2 : 
+
+Parse # 1
+[  S*[  NP[  Prn   I  ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ] ] ]Parse # 2
+[  S*[  NP[  Prn   I  ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ] ]Parse # 3
+[  S*[  X1[  NP[  Prn   I  ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ]
+
+Utterance # 3 : 
+
+Parse # 1
+[  S*[  VP[  V*   book  ][  NP[  NP[  Det   the  ][  N*   flight  ] ][  PP[  P*   through  ][  NP[  PN   Houston  ] ] ] ] ] ]Parse # 2
+[  S*[  VP[  VP[  V*   book  ][  NP[  Det   the  ][  N*   flight  ] ] ][  PP[  P*   through  ][  NP[  PN   Houston  ] ] ] ] ]
+
+Utterance # 4 : 
+
+Parse # 1
+[  S*[  VP[  V*   shoot  ][  NP[  NP[  Det   the  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ] ] ]Parse # 2
+[  S*[  VP[  VP[  V*   shoot  ][  NP[  Det   the  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ] ]
+
+Utterance # 5 : 
+
+Parse # 1
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 2
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ]Parse # 3
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  VP[  V*   book  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 4
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  VP[  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ]Parse # 5
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 6
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ]Parse # 7
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   book  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 8
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ]Parse # 9
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 10
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 11
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   book  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 12
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 13
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 14
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   book  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 15
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   shot  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 16
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 17
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 18
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   book  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 19
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   shot  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 20
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 21
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 22
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ]Parse # 23
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  VP[  V*   book  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 24
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  VP[  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ]Parse # 25
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   elephant  ] ] ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 26
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   elephant  ] ] ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ]Parse # 27
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   elephant  ] ] ] ][  VP[  V*   book  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ] ]Parse # 28
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   elephant  ] ] ] ][  VP[  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ] ]Parse # 29
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 30
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 31
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 32
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ]Parse # 33
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 34
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 35
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 36
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ]Parse # 37
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 38
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 39
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  VP[  V*   book  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 40
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 41
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   elephant  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 42
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   elephant  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 43
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   elephant  ] ] ] ][  VP[  V*   book  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 44
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   book  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   elephant  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 45
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 46
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 47
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 48
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ]Parse # 49
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 50
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 51
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 52
+[  S*[  X1[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ]Parse # 53
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 54
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 55
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  VP[  V*   book  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 56
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  PP[  P*   in  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 57
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   elephant  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 58
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   elephant  ] ] ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]Parse # 59
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   elephant  ] ] ] ][  VP[  V*   book  ][  NP[  Det   the  ][  N*   pajamas  ] ] ] ]Parse # 60
+[  S*[  NP[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   shot  ] ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   elephant  ] ] ] ][  VP[  V*   book  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ]
+
+Utterance # 6 : 
+
+Parse # 1
+[  S*[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   pajamas  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ] ] ]Parse # 2
+[  S*[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   pajamas  ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   pajamas  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ] ] ]Parse # 3
+[  S*[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ]Parse # 4
+[  S*[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ]Parse # 5
+[  S*[  NP[  PN   Houston  ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   pajamas  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ] ]Parse # 6
+[  S*[  NP[  PN   Houston  ] ][  VP[  VP[  V*   shot  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   pajamas  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ] ]Parse # 7
+[  S*[  NP[  PN   Houston  ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   pajamas  ] ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   pajamas  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ] ]Parse # 8
+[  S*[  NP[  PN   Houston  ] ][  VP[  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ]Parse # 9
+[  S*[  NP[  PN   Houston  ] ][  VP[  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ]Parse # 10
+[  S*[  NP[  PN   Houston  ] ][  VP[  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ]Parse # 11
+[  S*[  NP[  PN   Houston  ] ][  VP[  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ]Parse # 12
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   pajamas  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ]Parse # 13
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  VP[  V*   shot  ][  NP[  NP[  Poss   my  ][  N*   pajamas  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ]Parse # 14
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ]Parse # 15
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ]Parse # 16
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   pajamas  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ]Parse # 17
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   pajamas  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ]Parse # 18
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ]Parse # 19
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ]Parse # 20
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  VP[  VP[  V*   shot  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ]Parse # 21
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  VP[  VP[  V*   shot  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ]Parse # 22
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   pajamas  ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ]Parse # 23
+[  S*[  NP[  NP[  PN   Houston  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   pajamas  ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ]Parse # 24
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   pajamas  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ]Parse # 25
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  Det   an  ][  N*   pajamas  ] ] ] ][  PP[  P*   in  ][  NP[  NP[  Poss   my  ][  N*   pajamas  ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ] ] ]Parse # 26
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ]Parse # 27
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  V*   shot  ][  NP[  NP[  Det   an  ][  N*   elephant  ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ]Parse # 28
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ]Parse # 29
+[  S*[  X1[  NP[  PN   Houston  ] ][  VP[  VP[  V*   shot  ][  NP[  Det   an  ][  N*   elephant  ] ] ][  PP[  P*   in  ][  NP[  Poss   my  ][  N*   pajamas  ] ] ] ] ][  PP[  P*   in  ][  NP[  PN   Houston  ] ] ] ]
